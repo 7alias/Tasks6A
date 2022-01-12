@@ -1,4 +1,4 @@
-public class StarSystem {
+class StarSystem {
     private String starName;
     private int quantityOfPlanets;
     private int age;
@@ -10,9 +10,9 @@ public class StarSystem {
     }
 
 
-    public String getInfo() {
+    public String getInfo(String starName, int quantityOfPlanets, int age) {
 
-        String string = (getStarName() +" " + getQuantityOfPlanets() + " " + getAge());
+        String string = (starName +" " + quantityOfPlanets + " " + age);
         return string;
 
     }

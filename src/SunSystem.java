@@ -1,13 +1,13 @@
 public class SunSystem extends StarSystem {
     private long population;
-    private String starName = "sun";
+
 
     public SunSystem(int quantityOfPlanets, int age, long population) {
         super("sun", quantityOfPlanets, age);
         this.population = population;
     }
 
-    @Override
+
     public String getInfo() {
         String string = "This is the most densely populated star system in the universe(probably).";
         return string;
